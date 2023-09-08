@@ -1,0 +1,27 @@
+div{
+    display: inline-block;
+    padding: 15px;
+}
+#divProdutos{
+    display:inline-flexbox;
+}
+#divQuantidade{
+    display: flexbox;
+    margin-top: 0;
+    
+}
+#divDesconto{
+    display: flex;
+}
+
+
+
+#resultado{
+    display:flex;
+    margin-left: 10px;
+}
+#sifrao{
+    display: flex;
+    margin: -33px;
+    margin-left:0.6px;
+}

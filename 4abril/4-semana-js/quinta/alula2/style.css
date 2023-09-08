@@ -1,0 +1,48 @@
+
+body{
+    background-color: aqua;
+    
+  
+}
+#titulo{
+    color: blue;
+    font-family: 'Caveat', cursive;    font-size: 20px;
+}
+
+#btnSair{
+    color: brown;
+    background-color: aquamarine;
+    border-radius: 30px;
+    border: 5px solid orangered;
+    font-weight: 400;
+}
+
+#btnEntrar:hover{
+    color: rgb(17, 161, 228);
+    background-color: darkolivegreen;
+    font-weight: 500;
+    scale: 10;
+    transition: 1s;
+}
+
+.lbls{
+    color: orange;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 15px;
+}
+
+.inpts{
+    
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 25px;
+    font-size:18px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+

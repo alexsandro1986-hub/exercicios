@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+.noob{
+    margin: 100px;
+    padding: 10px;
+    background-color: rgb(70, 70, 59);
+    color: rgb(226, 226, 235);
+
+}
+#inptUm {
+ color: brown;
+ padding: 5px;
+ margin: 5px;
+}
+#inptDois {
+    color: brown;
+    padding: 5px;
+    margin: 5px;
+}
+.noosec{
+    margin: 5px;
+}
+
+#inptRes{
+    margin: 5px;
+}

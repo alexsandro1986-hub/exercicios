@@ -1,0 +1,15 @@
+#noob {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+#aa{
+    background-image: url(aranha.png);
+    background-repeat:no-repeat ;
+   height: 300px;
+    
+}
+#italic {
+    font-style: italic;
+}

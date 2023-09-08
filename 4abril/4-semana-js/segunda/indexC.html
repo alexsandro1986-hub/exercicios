@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleC.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    
+    <div id="divProdutos">
+        <label> <a href="indeximg.html"> Descrição do produto</a></label><br><br>
+        <input type="text" id="inpt1" placeholder="Café"><br>
+        <input type="text" id="inpt2" placeholder="Coxinha"><br>
+        <input type="text" id="inpt3" placeholder="Pastel"><br>
+        <input type="text" id="inpt4" placeholder="Caldo de cana"><br>
+        <input type="text" id="inpt5" placeholder="Empada" readonly><br>
+    </div>
+    <div id="divQuantidade">
+        <label> Quantidade</label><br><br>
+        <input id="inpt6"> <br>
+        <input type="text" id="inpt7"><br>
+        <input type="text" id="inpt8"><br>
+        <input type="text" id="inpt9"><br>
+        <input type="text" id="inpt10"><br>
+    </div>
+    <div id="divValor">
+        <label>Valor</label><br><br>
+        <input id="inpt11" placeholder="3.50"><br>
+        <input type="text" id="inpt12" placeholder="5.50"><br>
+        <input type="text" id="inpt13" placeholder="10"><br>
+        <input type="text" id="inpt14" placeholder="6"><br>
+        <input type="text" id="inpt15" placeholder="9"><br>
+    </div>
+    <div id="divDesconto">
+        <label>Desconto %</label>
+        <input type="text" id="inptDes" placeholder="20%">
+        <button onclick="Soma()">calcular</button>
+    </div>
+
+    <div id="divResultado">
+    <p>Total com desconto</p>
+    
+    <div id="resultado">
+      </div>
+      <p id="sifrao">R$</p>
+    </div>
+
+    <script src="scriptC.js"></script>
+</body>
+
+</html>
