@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<h1>Bem vindo ão quiz do senai</h1>
+<p><strong>Neste quiz você tera 4 perguntas com 4 escolhas cada escolha com uma pontuação</strong></p><br><br>
+1) Quais séries a seguir englobam melhor a temática de vampiros e assombração?
+<table>
+    <ul>A) Van Helsing </ul>
+    <ul>B) Castlevania </ul>
+    <ul>C) The Vampire Diaries </ul>
+    <ul>D) Blade: The Series </ul>
+</table>
+<input type="text" placeholder="Nome" id="inptVampiros" ><br><br>
+      
+
+2) Dentre os livros abaixo, quais incluem melhor a temática de fantasia?
+<table>
+    <ul>A) Alice no País das Maravilhas </ul>
+    <ul>B) O Hobbit </ul>
+    <ul>C) A Fantástica Fábrica de Chocolates </ul>
+    <ul>D) Coraline </ul>
+</table>
+<input type="text" placeholder="Nome" id="inptFantasia" ><br><br>
+3) Quais das franquias listadas, representam melhor a empresa de jogos Nintendo?
+
+<table>
+    <ul>A) The Legend of Zelda </ul>
+    <ul>B) Kirby </ul>
+    <ul>C) Metroid </ul>
+    <ul>D) Super Mario Bros </ul>
+</table>
+<input type="text" placeholder="Nome" id="inptJogos" onchange="upperCase()"><br><br>
+4) Quais dos autores citados, representam melhor o gênero de livros de terror?
+
+<table>
+    <ul>A) Stephen King </ul>
+    <ul>B) Edgar Allan Poe </ul>
+    <ul>C) H.P. Lovecraft </ul>
+    <ul>D) Mary Shelley </ul>
+</table>
+<input type="text" placeholder="Nome" id="inptTerror" ><br><br>
+    
+    <button onclick="funcionar()">Entrar</button>
+    
+<div id="divresultado">
+    <div id="resultado"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

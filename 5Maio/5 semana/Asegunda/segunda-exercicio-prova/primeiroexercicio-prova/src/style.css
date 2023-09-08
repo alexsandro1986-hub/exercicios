@@ -1,0 +1,9 @@
+#jogador{
+    display: flex;
+    justify-content:space-around;
+}
+.botao{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Asegunda/src/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Jogo de carta</h1>
+    <div id="jogador">
+        <section id="jogador1">
+            <h2>jogador 1</h2>
+            <input type="text" placeholder="Digite o 1°nome" id="inptUM">
+            <label for="">Nome do jogador 1</label>
+            <input type="text" placeholder="Digite uma das cartas" id="inptCarA">
+            <label for="">cartas jogador 1</label>
+        </section>
+
+        <section id="jogador2">
+            <h2>jogador 2</h2>
+            <input type="text" placeholder="Digite o 2°nome" id="inptDois">
+            <label for="">Nome do jogador 2</label>
+            <input type="text" placeholder="Digite uma das cartas" id="inptCarB">
+            <label for="">cartas jogador 2</label>
+        </section>
+
+    </div>
+
+    <section class="botao">
+        <button onclick="funcionar()" id="jogar">Jogar</button>
+        <div id="divResultado">
+            <div id="resultado"></div>
+        </div>
+
+    </section>
+
+
+    <script src="/Asegunda/src/script.js"></script>
+</body>
+
+</html>

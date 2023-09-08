@@ -1,0 +1,10 @@
+.linha{
+    display: inline-flex;
+
+}
+.coluna-5{
+    padding: 10px;
+}
+.coluna-0{
+    margin-top: 20px;
+}

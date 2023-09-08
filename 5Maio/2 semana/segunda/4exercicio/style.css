@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    background-color: aqua;
+   
+    align-items: center;
+    
+}
+#mover{
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 300px;
+}
+
+#mostrar{
+    border-radius: 100px;
+    color: rgb(0, 110, 255);
+    background-color: rgb(200, 239, 226);
+    margin: 10px;
+}
+#noob{
+    border-radius: 100px;
+}
+#divResultado{
+    margin: 10px;
+}
+#slopone{
+    border-radius: 100px;
+    color: rgb(255, 1, 1);
+    background-color: black;
+}
+
+#sel{
+    margin: 10px;
+    display: inline-block;
+}
+
+h1{
+    color: brown;
+    
+}
+#resultado{
+    color: rgb(214, 24, 24);
+}
