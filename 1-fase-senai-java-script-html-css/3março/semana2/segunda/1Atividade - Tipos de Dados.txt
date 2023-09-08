@@ -1,0 +1,34 @@
+
+Marca do carro:Literal		
+Modelo do carro: Literal
+Ano de fabricação:Inteiro
+Ano de modelo: Inteiro
+Cor do veículo: Literal
+Valor de compra: Inteiro
+Valor de venda:Real 
+Possui opcionais: Literal
+
+
+Número do pedido: Literal
+Sabor da pizza: Literal
+Tamanho da pizza: Literal
+Borda recheada: Lógico
+Valor de venda: Real
+Quantidade da compra: Inteiro
+Endereço de entrega: Literal
+Valor do frete: Real
+
+
+Nome do remédio: Literal
+Valor de compra: Real
+Valor de venda: Real
+Remédio é controlado: 
+Descrição: Literal
+Restrições de uso: Lógico
+Quantidade atual: Inteiro
+Quantidade mínima: Inteiro
+Uso pediátrico: Lógico
+
+
+
+
